@@ -1,0 +1,148 @@
+.container{
+  width: 100%;
+}
+.header-time{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: #057acc;
+  >span{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Apple Braille";
+    display: flex;
+    gap: 20px;
+    margin-right: 1%;
+  }
+
+}
+
+.logo-section{
+  width: 100%;
+  height: 160px;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo{
+    width: 15%;
+    margin-left: 1%;
+  }
+  .search{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    align-items: center;
+    margin-right: 2%;
+
+    >input{
+      height: 30px;
+      width: 80%;
+      border: 1px solid #057acc;
+    }
+    >p{
+      height: 30px;
+      width: 19%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      background-color: #057acc;
+      border-radius: 2px;
+
+    }
+  }
+}
+
+.nav-bar{
+  background-color: #057acc;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+
+  >a{
+    text-decoration: unset;
+    color: #ffffff;
+    font-size: 20px;
+
+  }
+}
+
+.carousel{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 40px;
+  background-color: rgba(156, 171, 182, 0.1);
+  padding: 60px 0;
+  >span{
+    width: 32%;
+    height: 300px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    overflow: hidden;
+    position: relative;
+    >img{
+      width: 100%;
+    }
+    >p{
+      padding: 10px;
+      color: #ffffff;
+      background-color: rgba(8, 13, 236, 0.6);
+      font-size: 25px;
+      position: absolute;
+      top: -24px;
+      left: 0px;
+      border-radius: 16px 0 16px 0 ;
+
+    }
+  }
+  &>span:nth-child(4), :nth-child(5), :nth-child(6){
+    margin-top: 40px;
+  }
+}
+
+.footer{
+  width: 100%;
+  height: 100px;
+  background-color: #057acc;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  >p{
+    color: white;
+    font-size: 16px;
+    margin-right: 1%;
+    padding: 5px 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  }
+}
+
+.soc-patet{
+  height: 500px;
+  overflow: hidden;
+}
+.big-img{
+  width: 100%;
+}
+
+.about-us{
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+width: 60%;
+  margin: 0 auto;
+  >p{
+    font-size: 23px;
+    padding: 20px 15px;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+}
+
+.about-container{
+  display: flex;
+  flex-direction: column;
+}

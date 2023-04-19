@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bb89a82f.css",
+    "main.js": "/static/js/main.78ce92eb.js",
+    "static/media/tavush.jpeg": "/static/media/tavush.9173143b1cfc3d0506dd.jpeg",
+    "static/media/masis.jpeg": "/static/media/masis.4e661cda63cc541773fc.jpeg",
+    "static/media/aragacotn.jpeg": "/static/media/aragacotn.0766c29e017096c84495.jpeg",
+    "static/media/hayastani-qartez.jpg": "/static/media/hayastani-qartez.fac84b532b32808c0689.jpg",
+    "static/media/kotayq.jpeg": "/static/media/kotayq.572a4d45b09f662db29f.jpeg",
+    "static/media/finish_document.pdf": "/static/media/finish_document.fb3d02c1f50e878c384c.pdf",
+    "static/media/vayoc-dzor.jpg": "/static/media/vayoc-dzor.4bd83fbd8fc699c79b15.jpg",
+    "static/media/blobid0.png": "/static/media/blobid0.2fd7c3815627857f0a9d.png",
+    "static/media/arcax.jpeg": "/static/media/arcax.b139653827fafd6b0246.jpeg",
+    "index.html": "/index.html",
+    "main.bb89a82f.css.map": "/static/css/main.bb89a82f.css.map",
+    "main.78ce92eb.js.map": "/static/js/main.78ce92eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb89a82f.css",
+    "static/js/main.78ce92eb.js"
+  ]
+}
