@@ -34,7 +34,7 @@ const Header=()=>{
         </div>
     </div>
     <div className='nav-bar'>
-				 <a href="/aboutUs">ՄԵՐ ՄԱՍԻՆ</a>
+				 <a href="/aboutUs" >ՄԵՐ ՄԱՍԻՆ</a>
         <a href="/socialPackages">ՍՈՑ. ՓԱԹԵԹՆԵՐ</a>
         <a href="https://hotel.am/" target="_blank">ՀՅՈՒՐԱՆՈՑՆԵՐ</a>
         <a href="/callBack">ՀԵՏԱԴԱՐՁ ԿԱՊ</a>

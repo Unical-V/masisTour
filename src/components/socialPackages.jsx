@@ -1,5 +1,5 @@
 import React from "react"
-import VayocDzor from "../image/vayoc-dzor.jpg";
+import VayocDzorImg from "../image/vayoc-dzor.jpg";
 import Aragacotn from "../image/aragacotn.jpeg";
 import Arcax from "../image/arcax.jpeg";
 import Kotayq from "../image/kotayq.jpeg";
@@ -9,13 +9,16 @@ import Masis from "../image/masis.jpeg";
 import Download from "../image/icon-Download.png";
 import Header from "./header";
 import PD from '../image/scan.pdf'
+import { useNavigate } from "react-router-dom";
 
 
 
 const SocialPackages=()=>{
 
-
-
+const navigate=useNavigate()
+const func = () => {
+	navigate('/')
+}
 
     return(
         <div className='container'>
@@ -32,7 +35,7 @@ const SocialPackages=()=>{
 				 </div>
 							 
 				 <div className='carousel'>
-					  <span><img src={VayocDzor} alt="VayocDzor"/><p>ՎԱՅՈՑ ՁՈՐ</p></span>
+					  <span onClick={()=>navigate('/VayocDzor')}><img src={VayocDzorImg} alt="VayocDzor"/><p>ՎԱՅՈՑ ՁՈՐ</p></span>
                 <span><img src={Aragacotn} alt="Aragacotn" className='img'/><p>ԱՐԱԳԱԾՈՏՆ</p></span>
                 <span><img src={Arcax} alt="Arcax"/><p>ԱՐՑԱԽ</p></span>
                 <span><img src={Kotayq} alt="Kotayq"/><p>ԿՈՏԱՅՔ</p></span>

@@ -4,6 +4,7 @@ import Home from './components/home';
 import AboutUs from "./components/aboutUs";
 import CallBack from "./components/callBack";
 import SocialPackages from './components/socialPackages';
+import VayocDzor from './components/regions/VayocDzor';
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/socialPackages" element={<SocialPackages />} />
                 <Route path="/aboutUs" element={<AboutUs />} />
-                <Route path="/callBack" element={<CallBack />} />
+			 <Route path="/callBack" element={<CallBack />} />
+			 <Route path="/VayocDzor" element={<VayocDzor />} />
             </Routes>
     );
 }
