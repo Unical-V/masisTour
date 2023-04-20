@@ -1,17 +1,17 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom'
 import Home from './components/home';
-import SocPatet from "./components/socPatet";
-import AboutUs from "./components/about";
+import AboutUs from "./components/aboutUs";
 import CallBack from "./components/callBack";
+import SocialPackages from './components/socialPackages';
 
 
 function App() {
     return (
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/socPatet" element={<SocPatet />} />
-                <Route path="/about" element={<AboutUs />} />
+                <Route path="/socialPackages" element={<SocialPackages />} />
+                <Route path="/aboutUs" element={<AboutUs />} />
                 <Route path="/callBack" element={<CallBack />} />
             </Routes>
     );

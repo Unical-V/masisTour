@@ -16,7 +16,7 @@ const Header=()=>{
         return () => clearInterval(interval);
     }, []);
 
-
+	
 
     return(
 <div className='container'>
@@ -27,16 +27,16 @@ const Header=()=>{
         </span>
     </div>
     <div className='logo-section'>
-        <img src={Logo} alt="logo" className='logo'/>
+				<a href="/"><img src={Logo} alt="logo" className='logo'  /></a> 
         <div className='search'>
             <input type="search" placeholder='Search'/>
             <p>Search</p>
         </div>
     </div>
     <div className='nav-bar'>
-        <a href="/about">ՄԵՐ ՄԱՍԻՆ</a>
-        <a href="/socPatet">ՍՈՑ. ՓԱԹԵԹՆԵՐ</a>
-        <a href="">ՀՅՈՒՐԱՆՈՑՆԵՐ</a>
+				 <a href="/aboutUs">ՄԵՐ ՄԱՍԻՆ</a>
+        <a href="/socialPackages">ՍՈՑ. ՓԱԹԵԹՆԵՐ</a>
+        <a href="https://hotel.am/" target="_blank">ՀՅՈՒՐԱՆՈՑՆԵՐ</a>
         <a href="/callBack">ՀԵՏԱԴԱՐՁ ԿԱՊ</a>
     </div>
 
