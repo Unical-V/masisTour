@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../header";
-import VayocDzorImg from "../../image/vayoc-dzor.jpg";
+import Header from "./header";
+import VayocDzorImg from "../image/vayoc-dzor.jpg";
 
 
 

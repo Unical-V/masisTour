@@ -35,12 +35,12 @@ const func = () => {
 				 </div>
 							 
 				 <div className='carousel'>
-					  <span onClick={()=>navigate('/VayocDzor')}><img src={VayocDzorImg} alt="VayocDzor"/><p>ՎԱՅՈՑ ՁՈՐ</p></span>
-                <span><img src={Aragacotn} alt="Aragacotn" className='img'/><p>ԱՐԱԳԱԾՈՏՆ</p></span>
-                <span><img src={Arcax} alt="Arcax"/><p>ԱՐՑԱԽ</p></span>
-                <span><img src={Kotayq} alt="Kotayq"/><p>ԿՈՏԱՅՔ</p></span>
-                <span><img src={Lori} alt="Lori"/><p>ԼՈՌԻ</p></span>
-                <span><img src={Tavush} alt="Tavush"/><p>ՏԱՎՈՒՇ</p></span>
+					  <span onClick={()=>navigate('/vayocDzor')}><img src={VayocDzorImg} alt="VayocDzor"/><p>ՎԱՅՈՑ ՁՈՐ</p></span>
+                <span onClick={()=>navigate('/aragacotn')}><img src={Aragacotn} alt="Aragacotn" className='img'/><p>ԱՐԱԳԱԾՈՏՆ</p></span>
+                <span onClick={()=>navigate('/arcax')}><img src={Arcax} alt="Arcax"/><p>ԱՐՑԱԽ</p></span>
+                <span onClick={()=>navigate('/kotayq')}><img src={Kotayq} alt="Kotayq"/><p>ԿՈՏԱՅՔ</p></span>
+                <span onClick={()=>navigate('/lori')}><img src={Lori} alt="Lori"/><p>ԼՈՌԻ</p></span>
+                <span onClick={()=>navigate('/tavush')}><img src={Tavush} alt="Tavush"/><p>ՏԱՎՈՒՇ</p></span>
 				 </div>
                
           
