@@ -1,0 +1,19 @@
+.body{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+margin: 40px 0;
+row-gap: 40px;
+	>span{
+		width: 28%;
+		box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+border-radius: 16px;
+padding: 20px;
+font-size: 18px;
+	}
+	>span:nth-child(2), >span:nth-child(5){
+		margin: 0 2%;
+	}
+}

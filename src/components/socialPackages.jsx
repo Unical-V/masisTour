@@ -1,13 +1,16 @@
 import React from "react"
 import VayocDzorImg from "../image/vayoc-dzor.jpg";
 import Aragacotn from "../image/aragacotn.jpeg";
-import Arcax from "../image/arcax.jpeg";
+import Arcax from "../image/arcax.jpg";
 import Kotayq from "../image/kotayq.jpeg";
 import Lori from "../image/lori.jpeg";
 import Tavush from "../image/tavush.jpeg";
 import Masis from "../image/masis.jpeg";
 import Download from "../image/icon-Download.png";
+import ToursImg from "../image/Turer.jpg"
+import SevanImg from "../image/sevan.jpg";
 import Header from "./header";
+
 import PD from '../image/scan.pdf'
 import { useNavigate } from "react-router-dom";
 
@@ -40,7 +43,9 @@ const func = () => {
                 <span onClick={()=>navigate('/arcax')}><img src={Arcax} alt="Arcax"/><p>ԱՐՑԱԽ</p></span>
                 <span onClick={()=>navigate('/kotayq')}><img src={Kotayq} alt="Kotayq"/><p>ԿՈՏԱՅՔ</p></span>
                 <span onClick={()=>navigate('/lori')}><img src={Lori} alt="Lori"/><p>ԼՈՌԻ</p></span>
-                <span onClick={()=>navigate('/tavush')}><img src={Tavush} alt="Tavush"/><p>ՏԱՎՈՒՇ</p></span>
+				 <span onClick={() => navigate('/tavush')}><img src={Tavush} alt="Tavush" /><p>ՏԱՎՈՒՇ</p></span>
+				 <span onClick={() => navigate('/sevan')}><img src={SevanImg} alt="sevan" /><p>ՍԵՎԱՆ</p></span>
+				 <span onClick={()=>navigate('/tours')}><img src={ToursImg} alt="tours"/><p>ՏՈՒՐԵՐ</p></span>
 				 </div>
                
           

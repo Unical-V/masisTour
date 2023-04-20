@@ -10,6 +10,8 @@ import Tavush from './components/tavush';
 import Lori from './components/lori';
 import Kotayq from './components/kotayq';
 import Arcax from './components/arcax';
+import Sevan from './components/Sevan';
+import Tours from './components/tours';
 
 
 
@@ -28,6 +30,8 @@ function App() {
 			 <Route path="/lori" element={<Lori />} />
 			 <Route path="/kotayq" element={<Kotayq />} />
 			 <Route path="/arcax" element={<Arcax />} />
+			 <Route path="/sevan" element={<Sevan />} />
+			 <Route path="/tours" element={<Tours />} />
 
             </Routes>
     );

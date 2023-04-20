@@ -3,7 +3,7 @@ import './home.scss'
 import VayocDzorImg from '../image/vayoc-dzor.jpg'
 import LoriImg from '../image/lori.jpeg'
 import TavushImg from '../image/tavush.jpeg'
-import ArcaxImg from '../image/arcax.jpeg'
+import ArcaxImg from '../image/arcax.jpg'
 import KotayqImg from '../image/kotayq.jpeg'
 import AragacotnImg from '../image/aragacotn.jpeg'
 import Header from "./header";
